@@ -1,0 +1,386 @@
+/* ここから下に記載していく */
+
+/* ロゴとメニュー */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s;   /*遅延速度*/
+  }  
+  .menu li a:hover {
+    opacity: 0.2;     /*透明度*/
+    color:#707070;  /*変化後の色*/
+  }
+  
+  /* 画像とテキストの箇所 */  
+  .box {
+    width: 100%;
+    max-width: 1200px;    
+    height: 100%;
+    max-height: 500px;
+    margin: 0 auto 60px;
+    position: relative;
+  }  
+  .img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .copy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .box__title {
+  color: white;
+  width: 1200px;
+  margin: 0 auto 30px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  }  
+  .box__text {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .about__title {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffd61a;
+  }
+  .about__sub {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about__text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: gray;
+  }
+  .imgBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }  
+  .imgBox img {
+    width: 100%;
+  }
+  
+  /* コース */  
+  .course__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }  
+  .course__text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: gray;
+  }
+  
+  /* たがい違い */
+  .courseBox {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    background-color: #fafafa;
+  }
+  .courseBox.hanten {
+    flex-direction: row-reverse;
+  }
+  
+  .imgBlock {
+    width: 50%;
+  }
+  
+  .imgBlock img {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .textBox {
+    width: 50%;
+    padding: 90px 200px 0 50px;
+    box-sizing: border-box;
+  }
+  .textBox__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .courseBox.hanten .textBox {
+    padding: 90px 50px 0 200px;
+  }
+  
+  .textBox__text {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* ニュース */
+  .news__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: #ffd61a;
+  }
+  .news__sub {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    align-items: center;    
+  }
+  
+  .news__list{
+    display: flex;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto; 
+  }  
+   .news__item{
+    width: 300px;
+    height: auto;
+    margin: 0 15px 60px;
+  } 
+  .news__date{
+    text-align: left;
+    font-size: 16px;
+    margin: 30px 0 24px;
+  } 
+  .news__text {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 14px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: gray;
+  }
+  .news__more{
+    text-align: center;
+  }
+  .news__btn {
+    display : inline-block;
+    font-size : 18px;
+    padding : 30px 150px;
+    background : #ffd61a;
+    color: #ffffff; 
+    line-height   : 1em; 
+    border: none;
+    margin-bottom: 60px;  
+  }
+  .news__btn:hover{
+    display : inline-block;
+    font-size : 18px;
+    padding : 30px 150px;
+    background : #707070;
+    color: #ffffff; 
+    line-height   : 1em; 
+    border: none;
+    margin-bottom: 60px;
+  }
+
+  /* access */
+  .access{
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto 0px;
+    background-color: #fafafa;
+  }
+  .access__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .access__sub {    
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  .mapBox {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .mapBox iframe {
+    width: 100%;
+  } 
+  .info {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto 60px;
+    background-color: #fafafa;
+  }  
+  .infoBox {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .infoBox__title {
+    width: 30%;
+  }  
+  .infoBox__text {
+    width: 70%;
+    line-height: 1.6;
+  }
+  .form {
+  text-align: center;
+  }
+
+  /* contact */
+.contact{
+  width: 1200px;
+  margin: 60px auto 0px;
+  background-color: white;
+}
+.contact__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.contact__sub {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px; 
+} 
+.contact__text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: gray;
+}
+.contact__form{
+  width: 800px;
+  margin: 70px auto 0;
+  text-align: center;
+}
+.contact__table{
+  width: 640px;
+  margin: 0 auto 20px;
+}
+.contact-body {  
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #ccc;  
+  vertical-align: middle;
+}
+.contact-item {
+  width: 30%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #eee;  
+  padding: 20px 64px 20px 16px; 
+  border: 1px solid #ccc;  
+  vertical-align: middle;
+} 
+.form-text{
+  width: 400px;
+  padding: 16px;    
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  max-width: 400px;
+}
+.form-select{
+  width: 400px;
+  padding: 16px;
+  margin: 8px; 
+  font-size: 16px;
+  vertical-align:middle;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-multi{
+  margin: 8px;
+  display: block;
+}
+.contact-textarea{
+  width: 400px;  
+  height: 150px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;  
+  vertical-align: middle;
+}
+.contact__btn {
+  display : inline-block;
+  font-size : 18px;
+  text-align    : center;
+  padding       : 30px 150px;
+  background    : #ffd61a;
+  color         : #ffffff;
+  line-height   : 1em;
+  border: none;
+  margin-top: 30px;
+}
+.contact__btn:hover{
+  display : inline-block;
+  font-size : 18px;
+  text-align    : center;
+  padding       : 30px 150px;
+  background    : #707070;
+  color         : #ffffff;
+  line-height   : 1em;
+  border: none;
+  margin-top: 30px;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 140px auto 0;
+  background-color: #707070;
+  color: white;
+  padding: 30px 0;
+}
